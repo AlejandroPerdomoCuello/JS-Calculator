@@ -1,3 +1,3 @@
 # JS-Calculator
 
-Simple calculator using HTML, CSS and JavaScript and VSCode
+Simple calculator using HTML, CSS and JavaScript in VSCode
