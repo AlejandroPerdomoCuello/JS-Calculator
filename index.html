@@ -8,40 +8,42 @@
 
 <body>
 
+    <script src="script.js"></script>
+
     <div class="container">
         <form name="form">
 
             <div class="display">
-                <input type="text" placeholder="0" name="displayresult" />
+                <input type="text" placeholder="0" name="displayResult" />
             </div>
 
                 <div class="buttons">
 
                     <div class="row">
-                    <input type="button" name="button7" value="7" onclick="calcNumbers(button7.value)">
-                    <input type="button" name="button8" value="8" onclick="calcNumbers(button8.value)">
-                    <input type="button" name="button9" value="9" onclick="calcNumbers(button9.value)">
-                    <input type="button" class="operation" name="buttonAdd" value="+" onclick="calcNumbers(buttonAdd.value)">
+                    <input type="button" name="button7" value="7" onclick="calcEquation(button7.value)">
+                    <input type="button" name="button8" value="8" onclick="calcEquation(button8.value)">
+                    <input type="button" name="button9" value="9" onclick="calcEquation(button9.value)">
+                    <input type="button" class="operation" name="buttonAdd" value="+" onclick="calcEquation(buttonAdd.value)">
                     </div>
 
                     <div class="row">
-                    <input type="button" name="button4" value="4" onclick="calcNumbers(button4.value)">
-                    <input type="button" name="button5" value="5" onclick="calcNumbers(button5.value)">
-                    <input type="button" name="button6" value="6" onclick="calcNumbers(button6.value)">
-                    <input type="button" class="operation" name="buttonSub" value="-" onclick="calcNumbers(buttonSub.value)">
+                    <input type="button" name="button4" value="4" onclick="calcEquation(button4.value)">
+                    <input type="button" name="button5" value="5" onclick="calcEquation(button5.value)">
+                    <input type="button" name="button6" value="6" onclick="calcEquation(button6.value)">
+                    <input type="button" class="operation" name="buttonSub" value="-" onclick="calcEquation(buttonSub.value)">
                     </div>
 
                     <div class="row">
-                    <input type="button" name="button1" value="1" onclick="calcNumbers(button1.value)">
-                    <input type="button" name="button2" value="2" onclick="calcNumbers(button2.value)">
-                    <input type="button" name="button3" value="3" onclick="calcNumbers(button3.value)">
-                    <input type="button" class="operation" name="buttonMul" value="*" onclick="calcNumbers(buttonMul.value)">
+                    <input type="button" name="button1" value="1" onclick="calcEquation(button1.value)">
+                    <input type="button" name="button2" value="2" onclick="calcEquation(button2.value)">
+                    <input type="button" name="button3" value="3" onclick="calcEquation(button3.value)">
+                    <input type="button" class="operation" name="buttonMul" value="*" onclick="calcEquation(buttonMul.value)">
                     </div>
 
                     <div class="row">
-                    <input type="button" name="button0" value="0" onclick="calcNumbers(button0.value)">
-                    <input type="button" class="operation" name="buttonDot" value="." onclick="calcNumbers(buttonDot.value)">
-                    <input type="button" class="operation" name="buttonDiv" value="/" onclick="calcNumbers(buttonDiv.value)">
+                    <input type="button" name="button0" value="0" onclick="calcEquation(button0.value)">
+                    <input type="button" class="operation" name="buttonDot" value="." onclick="calcEquation(buttonDot.value)">
+                    <input type="button" class="operation" name="buttonDiv" value="/" onclick="calcEquation(buttonDiv.value)">
                     <input type="button" class="equal" value="=" onclick="echoResult.eval(echoResult.value)">
                     </div>
 
